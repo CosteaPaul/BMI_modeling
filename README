@@ -1,4 +1,4 @@
 This repo contains data and jupyter notebooks for running some modeling things.
-It also includes configurations for deocker deployement.
+It also includes configurations for docker deployement.
 
 Should be used by spawning it in binder.

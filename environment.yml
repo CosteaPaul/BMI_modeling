@@ -1,9 +1,8 @@
 name: bmi
 channels:
-  listitems:
-  - r
-  - bioconda
-  - defaults
+- r
+- bioconda
+- defaults
 dependencies:
 - backports=1.0=py27_0
 - backports_abc=0.4=py27_0

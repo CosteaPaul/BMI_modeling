@@ -1,2 +1,5 @@
+conda config --add channels r
+conda config --add channels bioconda
+
 conda install r-irkernel
 conda install r-mass

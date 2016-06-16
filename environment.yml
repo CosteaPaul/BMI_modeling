@@ -57,6 +57,8 @@ dependencies:
 - qtconsole=4.2.1=py27_0
 - r=3.2.2=0
 - r-base=3.2.2=0
+- r-irdisplay=0.3=r3.2.2_0a
+- r-irkernel=0.5=r3.2.2_2
 - r-base64enc=0.1_3=r3.2.2_0a
 - r-boot=1.3_17=r3.2.2_0a
 - r-class=7.3_14=r3.2.2_0a

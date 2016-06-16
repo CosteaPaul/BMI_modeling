@@ -1,7 +1,0 @@
-name: r
-channels:
-- r
-- bioconda
-dependencies:
-- jupyter
-- r-irkernel

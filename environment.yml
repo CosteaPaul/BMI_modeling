@@ -1,4 +1,7 @@
 name: r
+channels:
+- r
+- bioconda
 dependencies:
 - backports=1.0=py27_0
 - backports_abc=0.4=py27_0

@@ -1,52 +1,9 @@
 name: bmi
-channels: !!python/object/new:ruamel_yaml.comments.CommentedSeq
+channels:
   listitems:
   - r
   - bioconda
   - defaults
-  state: !!python/tuple
-  - _yaml_format: !!python/object:ruamel_yaml.comments.Format
-      _flow_style: false
-    _yaml_line_col: !!python/object:ruamel_yaml.comments.LineCol
-      col: 2
-      data:
-        0:
-        - 1
-        - 4
-        1:
-        - 2
-        - 4
-        2:
-        - 3
-        - 4
-      line: 1
-  - _yaml_comment: !!python/object:ruamel_yaml.comments.Comment
-      _end: []
-      _items:
-        2:
-        - !!python/object:ruamel_yaml.tokens.CommentToken
-          end_mark: !!python/object:ruamel_yaml.error.Mark
-            buffer: null
-            column: 12
-            index: 41
-            line: 3
-            name: /home/costea/.condarc
-            pointer: null
-          start_mark: !!python/object:ruamel_yaml.error.Mark
-            buffer: null
-            column: 4
-            index: 33
-            line: 3
-            name: /home/costea/.condarc
-            pointer: null
-          value: !!python/unicode '
-
-
-            '
-        - null
-        - null
-        - null
-      comment: null
 dependencies:
 - backports=1.0=py27_0
 - backports_abc=0.4=py27_0
@@ -168,4 +125,3 @@ dependencies:
   - jupyter-core==4.1.0
   - ruamel-yaml-==VERSION
   - singledispatch==3.4.0.3
-
